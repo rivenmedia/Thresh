@@ -1,3 +1,65 @@
+#######################################################
+# Python
+#######################################################
+
+data/
+logs/
+settings.json
+ignore.txt
+.vscode
+.git
+makefile
+.ruff_cache/
+*.dat
+
+# Python bytecode / Byte-compiled / optimized / DLL files
+__pycache__/
+__pypackages__/
+*.pyc
+*.pyo
+*.pyd
+/.venv/
+*.py[cod]
+*$py.class
+
+# Local Poetry artifact cache
+/.cache/pypoetry/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rider IDE
+**/.idea/
+
+# MacOs
+**/.DS_Store
+
+
+#######################################################
+# Node.js
+#######################################################
+
 # Logs
 logs
 *.log
@@ -102,7 +164,6 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
 
 # Docusaurus cache and generated files
 .docusaurus
